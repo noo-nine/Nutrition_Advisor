@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Settings | Telangana Nutrition Advisor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Profile Settings</h1>
+  </header>
+
+  <div class="form-container">
+    <form action="/submit-profile-settings" method="POST">
+      <label for="full-name">Full Name</label>
+      <input type="text" id="full-name" name="full-name" placeholder="Enter full name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="dietary-goal">Dietary Goal</label>
+      <select id="dietary-goal" name="dietary-goal">
+        <option value="weight-loss">Weight Loss</option>
+        <option value="muscle-gain">Muscle Gain</option>
+        <option value="maintain-weight">Maintain Weight</option>
+      </select>
+
+      <button type="submit">Save Changes</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Need help? <a href="#">Contact Support</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

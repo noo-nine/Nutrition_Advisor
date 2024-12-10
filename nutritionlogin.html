@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Telangana Nutrition Advisor</title>
+  <link rel="stylesheet" href="nutritionlogin.css">
+</head>
+<body>
+  <header>
+    <h1>Login to Your Account</h1>
+  </header>
+
+  <div class="form-container">
+    <form action="/submit-login" method="POST">
+      <label for="username">Username or Email</label>
+      <input type="text" id="username" name="username" placeholder="Enter username or email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter password" required>
+
+      <button type="submit">Login</button>
+      <p>Forgot your password? <a href="forgot-password.html">Click here</a></p>
+    </form>
+  </div>
+
+  <footer>
+    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+  </footer>
+
+  <script src="nutritionlogin.js"></script>
+</body>
+</html>

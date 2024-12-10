@@ -1,0 +1,209 @@
+/* Reset and General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #d9534f; /* Telangana cuisine theme color */
+  }
+  
+  /* Header */
+  header {
+    background-color: #d9534f;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  /* Form Styles for Login and Signup */
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 40px auto;
+  }
+  
+  form label {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  form button:hover {
+    background-color: #31b0d5;
+  }
+  
+  form .footer-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  form .footer-link a {
+    color: #d9534f;
+    text-decoration: none;
+  }
+  
+  form .footer-link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Meal Suggestions Page */
+  .meal-suggestions {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .meal-suggestions h2 {
+    font-size: 2rem;
+    color: #d9534f;
+  }
+  
+  .meal-suggestions select,
+  .meal-suggestions input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.1rem;
+  }
+  
+  .meal-suggestions button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .meal-suggestions button:hover {
+    background-color: #ec971f;
+  }
+  
+  /* Nutritional Breakdown Page */
+  .nutritional-breakdown {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .nutritional-breakdown h2 {
+    font-size: 2rem;
+    color: #d9534f;
+    margin-bottom: 20px;
+  }
+  
+  .nutritional-breakdown ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nutritional-breakdown ul li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  .nutritional-breakdown .back-btn {
+    padding: 12px 25px;
+    background-color: #5bc0de;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .nutritional-breakdown .back-btn:hover {
+    background-color: #31b0d5;
+  }
+  
+  /* AI-powered Recommendations Page */
+  .ai-recommendations {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 40px auto;
+  }
+  
+  .ai-recommendations h2 {
+    font-size: 2rem;
+    color: #d9534f;
+    margin-bottom: 20px;
+  }
+  
+  .ai-recommendations ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ai-recommendations ul li {
+    font-size: 1.1rem;
+    margin: 8px 0;
+  }
+  
+  .ai-recommendations .back-btn {
+    padding: 12px 25px;
+    background-color: #5bc0de;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .ai-recommendations .back-btn:hover {
+    background-color: #31b0d5;
+  }
+  

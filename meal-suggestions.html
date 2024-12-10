@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Meal Suggestions | Telangana Nutrition Advisor</title>
+  <link rel="stylesheet" href="meal-suggestions.css">
+</head>
+<body>
+  <header>
+    <h1>Custom Meal Suggestions</h1>
+    <p>Get personalized meal suggestions tailored to your dietary needs.</p>
+  </header>
+
+  <section class="meal-suggestions">
+    <div class="meal-form">
+      <form action="/submit-meal-suggestions" method="POST">
+        <label for="diet-type">Select Diet Type</label>
+        <select id="diet-type" name="diet-type">
+          <option value="vegetarian">Vegetarian</option>
+          <option value="non-vegetarian">Non-Vegetarian</option>
+          <option value="vegan">Vegan</option>
+        </select>
+
+        <label for="goal">Select Your Goal</label>
+        <select id="goal" name="goal">
+          <option value="weight-loss">Weight Loss</option>
+          <option value="muscle-gain">Muscle Gain</option>
+          <option value="maintain-weight">Maintain Weight</option>
+        </select>
+
+        <label for="allergies">Any Allergies or Restrictions?</label>
+        <input type="text" id="allergies" name="allergies" placeholder="e.g., gluten, nuts">
+
+        <button type="submit">Get Meal Suggestions</button>
+      </form>
+    </div>
+
+    <div class="suggested-meals">
+      <!-- Dynamically display AI-generated meal suggestions here -->
+      <h2>Your Personalized Meal Suggestions</h2>
+      <div id="meal-list"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="dashboard.html">Back to Dashboard</a></p>
+  </footer>
+
+  <script src="meal-suggestions.js"></script>
+</body>
+</html>
